@@ -125,7 +125,7 @@ def create_app(config_class: Type[Config] = Config) -> Flask:
 
     app.task_queue = rq.Queue('microblog-tasks', connection=app.redis)
 
-    thrd = threading.Thread(target=detect_motion, args=(5, ))  # =(args["frame_count"],))
+    thrd = threading.Thread(target=detect_motion, args=(5, ))  # =(args["frame_count"],)) # put in config?
     thrd.daemon = True
     thrd.start()
 

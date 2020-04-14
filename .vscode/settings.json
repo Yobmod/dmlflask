@@ -1,11 +1,5 @@
 {
-    "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.pycodestyleEnabled": false,
-    "python.linting.pylamaEnabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.pythonPath": "C:\\Users\\Customer\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\dmlflask-gUw4o9is-py3.7",
+    "editor.formatOnSave": true,
     "python.autoComplete.extraPaths": [
         ".",
         ".\\src",
@@ -13,12 +7,17 @@
         ".\\src2\\pyimagesearch\\motion_detection",
         ".\\tests"
     ],
+    "python.formatting.provider": "autopep8",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "C:\\Users\\Customer\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\dmlflask-gUw4o9is-py3.7",
+    "python.testing.nosetestsEnabled": false,
     "python.testing.promptToConfigure": false,
     "python.testing.pytestEnabled": true,
-    "python.testing.nosetestsEnabled": false,
-    "python.formatting.provider": "autopep8",
-    "editor.formatOnSave": true,
-    "restructuredtext.confPath": "",
     "python.testing.unittestArgs": [
         "-s",
         "./src",
@@ -26,6 +25,7 @@
         "test*.py"
     ],
     "python.testing.unittestEnabled": false,
+    "restructuredtext.confPath": "",
     "todohighlight.keywords": [
         {
             "backgroundColor": "",
