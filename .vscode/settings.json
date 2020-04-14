@@ -1,0 +1,101 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "C:\\Users\\Customer\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\dmlflask-gUw4o9is-py3.7",
+    "python.autoComplete.extraPaths": [
+        ".",
+        ".\\src",
+        ".\\src2",
+        ".\\src2\\pyimagesearch\\motion_detection",
+        ".\\tests"
+    ],
+    "python.testing.promptToConfigure": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.nosetestsEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "restructuredtext.confPath": "",
+    "python.testing.unittestArgs": [
+        "-s",
+        "./src",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.unittestEnabled": false,
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "Union"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "Any"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "List"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "Tuple"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "Any"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "Optional"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "Opt"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "List"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "Dict"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "httpResponse"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "jsonResponse"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "HTML"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "cast"
+        },
+        {
+            "backgroundColor": "",
+            "color": "green",
+            "text": "AnyStr"
+        }
+    ]
+}

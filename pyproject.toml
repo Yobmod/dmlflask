@@ -1,0 +1,90 @@
+[tool.poetry]
+name = "dmlflask"
+version = "0.1.0"
+description = ""
+authors = ["yobmod <yobmod@gmail.com>"]
+repository = "https://github.com/Yobmod/dmlflask"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+typing-extensions = "*"
+flask = "*"
+
+
+
+# matplotlib = "*"  # brings numpy
+
+# data-science-types = "*"
+# numpy-stubs = "*"
+# pillow = "*"
+# pysrim = "*"
+# pysimplegui = "*"
+# pytoml = "*"
+# python-dotenv = "*"
+# boltons = "*"
+# keras = "*"
+# sklearn = "*"
+# colorama = "*"
+# termcolor = "*"
+# chempy = "*"
+# pyyaml = "*"
+# # returns = "*"
+# typer = {extras = ["all"], version = "*"}
+# dacite = "*"
+# fastapi = {extras = ["all"], version = "*"}
+# dill = "*"
+# toml = "*"
+
+# pandas = "*"
+# jupyter = "*"
+# jupyter_contrib_nbextensions = "*"
+# jupyter_nbextensions_configurator = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+Flask-Babel="*"
+Flask-Bootstrap="*"
+Flask-HTTPAuth="*"
+Flask-Login="*"
+Flask-Mail="*"
+Flask-Migrate="*"  # brinffs alembic
+Flask-Moment="*"
+Flask-SQLAlchemy="*"  # bring SQLalchemy
+Flask-WTF="*"
+redis = "*"
+rq = "*"
+guess-language-spirit = "*"
+elasticsearch = "*"
+celery = "*"
+pyjwt = "*"
+requests = "*"
+imutils = "*"
+opencv-python = "4.2.0.32"
+python-dotenv = "*"
+# imageio = "*"  # brings pillow
+# imutils = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+cython = "*"
+mypy = "*"
+pytest-cov = "*"
+pytest-mypy = "*"
+pytest-sugar = "*"
+pytest-xdist = "*"
+pylama = "*"
+autopep8 = "*"
+flake8 = "*"
+flake8-comprehensions = "*"
+flake8-bugbear = "*"
+pdbpp = "*"
+# pyinstaller = "*"
+# safety = "*"
+# black = "^19.10b0"
+gitpython = "*"
+
+
+[build-system]
+requires = ["poetry>=1.05"]
+build-backend = "poetry.masonry.api"

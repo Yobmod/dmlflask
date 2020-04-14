@@ -1,0 +1,1 @@
+from .motiondetector import SingleMotionDetector
